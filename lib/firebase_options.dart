@@ -13,7 +13,7 @@ import 'package:flutter/foundation.dart'
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
-
+/// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -54,6 +54,7 @@ class DefaultFirebaseOptions {
     appId: '1:622716398888:android:9515eb7b6ff90dae4b341d',
     messagingSenderId: '622716398888',
     projectId: 'spartan-3981c',
+    databaseURL: 'https://spartan-3981c-default-rtdb.firebaseio.com',
     storageBucket: 'spartan-3981c.appspot.com',
   );
 
@@ -62,6 +63,7 @@ class DefaultFirebaseOptions {
     appId: '1:622716398888:ios:0cc71b2ac973b03b4b341d',
     messagingSenderId: '622716398888',
     projectId: 'spartan-3981c',
+    databaseURL: 'https://spartan-3981c-default-rtdb.firebaseio.com',
     storageBucket: 'spartan-3981c.appspot.com',
     iosBundleId: 'com.pratik.spartan',
   );
